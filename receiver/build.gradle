@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.implicitintentsreceiver'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.implicitintentsreceiver'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+}
